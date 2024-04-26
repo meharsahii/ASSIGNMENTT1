@@ -1,0 +1,231 @@
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+   
+  }
+  .dt{
+    float: right;
+    margin: 140px;
+  }
+ .main{
+    margin: left 10px; 
+ }
+ .c1{
+    width: 30%; 
+    float: left;
+    margin-left: 30px;
+ }
+ .c1:hover{
+    color: #333;
+    cursor: pointer;
+ }
+
+ .image img{
+    width: 70%;
+    border-radius: 20px;
+ }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    float: left;
+  }
+  
+  .navbar a {
+    font-size: 30px;
+    padding: 22px;
+  }
+  
+  .navbar a:hover {
+    color: grey;
+  }
+  
+  .icons a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+  }
+  
+  .icons a:hover {
+    color: pink;
+  }
+  
+  section {
+    padding: 2rem 9%;
+  }
+  
+  .home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F8F2ED;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .i1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: black;
+    color: white;
+    padding: 0.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  
+  .btn:hover {
+    color: bisque;
+  }
+  
+  .h1 {
+    max-width: 70rem;
+  }
+  .p{
+    float: right;
+    
+  }
+  .t{
+    text-align: left;
+    font-size: 40px;
+  
+  }
+  
+  .h1 h3 {
+    font-size: 6rem;
+    position: relative;
+  }
+  
+  .h1 p {
+    font-size: 1.5rem;
+    color: grey;
+    padding: 1rem 0;
+    line-height: 1.5;
+  }
+  .dt{
+    text-align: right; 
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .dz{
+    float: right;
+   font-size: 20px ;
+    margin-left: 50px;
+   color: grey;
+  }
+  .footer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+
+.boxcontainer {
+    display: flex;
+    justify-content: space-between; 
+}
+.box {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+}
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+.box h3 {
+    margin-bottom: 10px;
+}
+.box a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.boxcontainer{
+    margin-top: 100px;
+    display: inline-block;
+    flex: 1;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
+    gap: 20px; /* Add gap between columns */
+}
+.box{
+    flex: 1  1 25rem;
+}
+.box h3{
+    color: black;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+
+}
+.box a{
+    display: block;
+   color: grey;
+   font-size: 1.5rem;
+   padding: 1rem 0;
+}
+.box a:hover{
+    color: blue;
+}
+  
+
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+    header {
+      padding: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .fa-bars {
+      display: block;
+    }
+    .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+    }}
